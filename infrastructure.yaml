@@ -1,0 +1,14 @@
+chartVersion: 0.1.4
+projectName: wayrapuka
+
+ingress:
+  host: mark.onthewifi.com
+  path: /wayrapuka
+  pathType: Prefix
+
+deployment:
+  image: markmorcos/wayrapuka
+  tag: latest
+
+service:
+  port: 80

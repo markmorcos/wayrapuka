@@ -1,0 +1,9 @@
+<svg width="180" height="80" viewBox="0 0 180 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <text x="15" y="50" font-family="Montserrat, sans-serif" font-weight="900" font-size="26" fill="#E76F51">WAYRA PUKA</text>
+    <path d="M5 60 H175" stroke="#E76F51" stroke-width="4" stroke-linecap="round"/>
+    <path d="M22 68 L160 68" stroke="#E76F51" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="10" cy="30" r="7" fill="#E76F51"/>
+    <circle cx="170" cy="30" r="7" fill="#E76F51"/>
+  </g>
+</svg> 
