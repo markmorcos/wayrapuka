@@ -13,7 +13,7 @@ FROM nginx:alpine
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-COPY --from=builder /app/dist /usr/share/nginx/html/wayrapuka
+COPY --from=builder /app/dist /usr/share/nginx/html
 
 # Create nginx user and set permissions
 RUN addgroup -S nginxgroup && \
