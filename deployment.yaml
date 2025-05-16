@@ -1,0 +1,24 @@
+chartVersion: 0.2.5
+
+project:
+  name: "wayrapuka"
+
+repository:
+  name: "markmorcos/wayrapuka"
+  path: "."
+
+ingress:
+  host: wayrapuka.com
+  rules:
+    - host: wayrapuka.com
+      path: /
+      pathType: Prefix
+      serviceName: wayrapuka-service
+
+deployments:
+  - name: wayrapuka-deployment
+    image: markmorcos/wayrapuka
+
+services:
+  - name: wayrapuka-service
+    port: 80
